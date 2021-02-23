@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.Full {
+  background-image: url("./cold.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.Full-warm {
+  background-image: url("./warm.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.box {
+  margin: 5px auto;
+  max-width: 60%;
+  text-align: center;
+  padding: 50px 0 70px 0;
+  position: relative;
+}
+
+.input-box {
+  height: 40px;
+  width: 100%;
+  border: 0px solid;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.fas {
+  position: absolute;
+  padding: 10px;
+  min-width: 40px;
+  bottom: 72px;
+  right: -1px;
+  color: grey;
+}
+
+.weather-box {
+  margin: 3% auto;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+
+.country {
+  margin: 1% auto;
+  font-size: 30px;
+}
+
+.temp {
+  font-size: 80px;
+  margin: 2% auto;
+  display: inline-block;
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+}
+
+.desc {
+  font-size: 35px;
+}
+
+.icon {
+  float: right;
+  position: relative;
+  bottom: 25px;
+}
+
+.c {
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.header {
+  max-width: 60%;
+  margin: 0 auto;
+}
